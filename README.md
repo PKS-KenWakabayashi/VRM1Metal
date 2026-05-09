@@ -15,7 +15,7 @@ Add the package to your project from Xcode (**File → Add Packages…**) using 
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/<owner>/VRM1Metal.git", from: "0.1.0")
+    .package(url: "https://github.com/PKS-KenWakabayashi/VRM1Metal.git", from: "0.1.0")
 ],
 targets: [
     .target(name: "MyApp", dependencies: ["VRM1Metal"])
